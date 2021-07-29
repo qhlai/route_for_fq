@@ -1,0 +1,24 @@
+[
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "block",
+    "ip": [],
+    "domain": [
+      "#阻止CrxMouse鼠标手势收集上网数据",
+      "mousegesturesapi.com",
+      "#下一行广告管理平台网址，在ProductivityTab（原iChrome）浏览器插件页面显示",
+      "cf-se.com",
+      "ldc.lenovo.com.cn"
+    ],
+    "protocol": []
+  },
+  {
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [],
+    "protocol": []
+  }
+]

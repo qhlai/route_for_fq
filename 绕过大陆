@@ -1,0 +1,46 @@
+[
+  {
+    "type": "field",
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "block",
+    "ip": [],
+    "domain": [
+      "#阻止CrxMouse鼠标手势收集上网数据",
+      "mousegesturesapi.com",
+      "#下一行广告管理平台网址，在ProductivityTab（原iChrome）浏览器插件页面显示",
+      "cf-se.com",
+      "ldc.lenovo.com.cn"
+    ],
+    "protocol": []
+  },
+  {
+    "type": "field",
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "geoip:cn"
+    ],
+    "domain": [
+      "geosite:private",
+      "geosite:cn",
+      "geosite:adobe",
+      "geosite:adobe-activation",
+      "geosite:microsoft",
+      "geosite:msn",
+      "geosite:apple",
+      "geosite:category-ads-all",
+      "geosite:google-cn",
+      "geosite:apple-cn"
+    ],
+    "protocol": []
+  },
+  {
+    "type": "field",
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "proxy"
+  }
+]
